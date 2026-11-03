@@ -143,88 +143,9 @@ function renderPrice(target, price) {
   if (price.kind === 'from') target.append(element('small', '', 'A partir de'));
   target.append(document.createTextNode(currency.format(price.amount)));
 }
-function appendOptionGroup(group, selection, options, title) {
-  const details = element('details');
-  const summary = element('summary', '', title || group.name);
-  if (selection) {
-    let rule = 'Adicionais opcionais';
-    if (selection.min > 0) rule = `Escolha de ${selection.min} a ${selection.max} opções no pedido`;
-    else if (selection.max) rule = `Opcional · até ${selection.max} opções no pedido`;
-    summary.append(element('small', '', rule));
-  }
-  const list = element('ul');
-  for (const option of options) {
-    const row = element('li');
-    const info = element('div', 'product-option-info');
-    if (title) {
-      const src = safeImage(option);
-      if (src) {
-        const image = element('img', 'option-thumbnail');
-        image.src = src;
-        image.alt = option.name;
-        image.width = 48;
-        image.height = 48;
-        image.loading = 'lazy';
-        image.addEventListener('error', () => { image.hidden = true; }, { once: true });
-        info.append(image);
-      }
-    }
-    const copy = element('div');
-    copy.append(element('span', 'option-name', option.name));
-    if (title && option.description) copy.append(element('small', 'option-description', option.description));
-    if (option.availability === 'unavailable') copy.append(element('small', 'option-description', 'Esgotado na consulta'));
-    info.append(copy);
-    row.append(info, element('span', 'option-price', currency.format(option.price.amount)));
-    list.append(row);
-  }
-  details.append(summary, list);
-  groupContainer.append(details);
-}
 function openProduct(id, trigger) {
-  const product = productMap.get(id);
-  if (!product) return;
-  lastTrigger = trigger;
-  dialog.querySelector('.eyebrow').textContent = product.categoryName;
-  dialog.querySelector('#product-title').textContent = product.name;
-  dialog.querySelector('.product-dialog-description').textContent = product.description || 'Confira os detalhes e as opções ao finalizar o pedido no cardápio oficial.';
-  renderPrice(dialog.querySelector('.product-price'), product.price);
-  const status = dialog.querySelector('.product-dialog-status');
-  status.textContent = product.availability === 'unavailable' ? 'Este item estava esgotado na consulta. Confira a disponibilidade atual na Anota.ai.' : '';
-  status.hidden = !status.textContent;
-  const src = safeImage(product);
-  dialogPhoto.classList.remove('no-photo');
-  dialogImage.hidden = !src;
-  placeholder.textContent = src ? 'FOTO DO CARDÁPIO' : 'SEM FOTO NO CARDÁPIO';
-  if (src) {
-    dialogImage.alt = `${product.name} — foto do cardápio da KiGula`;
-    dialogImage.src = src;
-  } else {
-    dialogImage.removeAttribute('src');
-  }
-  const imageNote = dialog.querySelector('.product-image-note');
-  imageNote.textContent = product.image?.note || '';
-  imageNote.hidden = !imageNote.textContent;
-  groupContainer.replaceChildren();
-  const variants = product.variants || [];
-  const selections = new Map((product.optionSelections || []).map((selection) => [selection.groupId, selection]));
-  if (variants.length) appendOptionGroup({}, { min: 1, max: 2 }, variants, 'Sabores e valores');
-  for (const groupId of product.optionGroupIds || []) {
-    const group = optionMap.get(groupId);
-    if (!group || !group.options.length) continue;
-    if (variants.length && group.options.some((option) => variants.some((variant) => variant.id === option.id))) continue;
-    appendOptionGroup(group, selections.get(groupId), group.options);
-  }
-  const configNote = dialog.querySelector('.product-option-note');
-  configNote.textContent = variants.length ? 'Escolha os sabores e adicionais na Anota.ai. O valor final depende das escolhas e da regra de cálculo exibida no pedido.' : (groupContainer.children.length ? 'Escolha os adicionais na Anota.ai. O valor final é confirmado antes de concluir o pedido.' : 'Consulte a disponibilidade antes de concluir seu pedido.');
-  const order = dialog.querySelector('.product-order');
-  const productURL = product.sourceProductUrl;
-  order.href = productURL && productURL.startsWith('https://pedido.anota.ai/') ? productURL : data.sourceUrl;
-  dialog.querySelector('.product-whatsapp').href = `https://wa.me/5581998905824?text=${encodeURIComponent(`Olá, KiGula! Gostaria de consultar o produto ${product.name}.`)}`;
-  dialog.querySelector('.product-dialog-source').textContent = `Produtos, fotos e preços consultados em ${date}. Os valores e a disponibilidade atuais são os exibidos no cardápio oficial no momento do pedido.`;
-  dialog.showModal();
-  document.body.classList.add('dialog-open');
-  dialog.scrollTop = 0;
-  dialog.querySelector('.product-dialog-layout').scrollTop = 0;
+  if (window.KiGulaOrdering) window.KiGulaOrdering.openProduct(id, trigger);
+  else showToast('O carrinho está carregando. Tente novamente em instantes.');
 }
 document.querySelector('.catalog-grid').addEventListener('click', (event) => {
   const button = event.target.closest('[data-product-open]');
@@ -241,6 +162,6 @@ dialog.addEventListener('click', (event) => {
   if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) dialog.close();
 });
 dialog.addEventListener('close', () => {
-  document.body.classList.remove('dialog-open');
+  if (!document.querySelector('dialog[open]')) document.body.classList.remove('dialog-open');
   lastTrigger?.focus();
 });

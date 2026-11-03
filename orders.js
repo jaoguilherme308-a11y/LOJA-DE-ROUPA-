@@ -41,6 +41,19 @@ function updateBasket(){
  basket.forEach((line,index)=>{
   const p=products().get(line.productId),priced=itemPrice(line);
   const row=node('article','basket-item');const copy=node('div','basket-item-copy');
+  const photo=node('div','basket-item-photo');
+  const fallback=node('div','basket-photo-fallback');
+  const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('aria-hidden','true');icon.classList.add('icon');
+  const use=document.createElementNS('http://www.w3.org/2000/svg','use');use.setAttribute('href','#bag');icon.append(use);
+  const photoLabel=node('span','','Sem foto');fallback.append(icon,photoLabel);photo.append(fallback);
+  const source=p.image?.thumbnailLocalPath||pic(p);
+  if(source){
+   const image=node('img');image.alt=p.name;image.width=160;image.height=160;image.loading='lazy';image.decoding='async';
+   fallback.hidden=true;
+   image.addEventListener('error',()=>{image.hidden=true;photoLabel.textContent='Foto indisponível';fallback.hidden=false;},{once:true});
+   image.src=source;photo.append(image);
+  }
   copy.append(node('h3','',p.name));
   if(priced.choices.length)copy.append(node('p','',priced.choices.map(o=>`${o.quantity}× ${o.name}`).join(' · ')));
   if(line.note)copy.append(node('p','',line.note));
@@ -49,7 +62,7 @@ function updateBasket(){
   const remove=node('button','link-button','Remover');remove.type='button';remove.addEventListener('click',()=>{basket.splice(index,1);updateBasket();});actions.append(edit,remove);copy.append(actions);
   const step=node('div','quantity-step');const minus=node('button','','−');minus.type='button';minus.setAttribute('aria-label','Diminuir quantidade de '+p.name);minus.addEventListener('click',()=>{if(line.quantity===1)basket.splice(index,1);else line.quantity--;updateBasket();});
   const number=node('span','',line.quantity);const plus=node('button','','+');plus.type='button';plus.setAttribute('aria-label','Aumentar quantidade de '+p.name);plus.disabled=line.quantity>=20;plus.addEventListener('click',()=>{line.quantity++;try{priceCart(catalog,basket);updateBasket()}catch(error){line.quantity--;notice(error.message);}});step.append(minus,number,plus);
-  row.append(copy,step);list.append(row);
+  row.append(photo,copy,step);list.append(row);
  });
  $('#basket-subtotal').textContent=cash(subtotal());
  $('#basket-minimum').textContent='Pedido mínimo de produtos: '+cash(settings.minimumCents);

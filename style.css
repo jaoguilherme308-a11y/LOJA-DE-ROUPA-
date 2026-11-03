@@ -23,3 +23,25 @@
 @media(max-width:600px){.cart-scroll{padding:33px 22px 24px}.cart-dialog h2{font-size:37px}.form-grid{gap:0;grid-template-columns:1fr}.cart-dialog label{margin:12px 0}.basket-item{gap:12px}.basket-item h3{font-size:14px}.basket-item>.quantity-step{gap:5px}.basket-item>.quantity-step button{width:23px}.basket-item-copy{min-width:0}.selection-bottom>strong{font-size:21px}.tracking-button{right:16px;bottom:79px;font-size:9px}.header-order[data-cart-open]{font-size:10px;gap:8px}.header-order[data-cart-open]>span{min-width:17px;height:17px;line-height:17px}.cart-dialog section>p{font-size:12px}}
 
 .preview-banner{text-align:center;background:#fff0be;border-bottom:1px solid #d9c88f;color:#5d4d25;font:11px/1.7 Arial,sans-serif;padding:9px 18px;letter-spacing:.2px}@media(max-width:600px){.preview-banner{font-size:9px;padding:8px 12px}}
+
+/* Sacola: leitura mais clara e identificação visual dos itens. */
+.cart-dialog .eyebrow{font-size:12px;font-weight:800;letter-spacing:1.35px;line-height:1.65;color:var(--ink)}
+.cart-dialog .sum-row{font-size:14px;line-height:1.6}.cart-dialog .sum-row>span{font-weight:600}.cart-dialog .sum-row>strong{font-size:17px}.cart-dialog .sum-row.total{font-size:19px}.cart-dialog .sum-row.total>strong{font-size:22px}
+#basket-minimum,#basket-fulfillment-note{font-size:13px;font-weight:500;line-height:1.8;color:#555246;margin-block:11px}
+.cart-dialog .checkout-help{font-size:12px;line-height:1.85;color:#5c594f}
+.basket-item{display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:16px;align-items:start}
+.basket-item-photo{position:relative;width:76px;height:76px;overflow:hidden;flex-shrink:0;border:1px solid #dcd5c5;border-radius:8px;background:#ede8db}
+.basket-item-photo>img{display:block;width:100%;height:100%;object-fit:cover}
+.basket-photo-fallback{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;padding:6px;text-align:center;color:#6c6759}
+.basket-photo-fallback .icon{width:24px;height:24px}.basket-photo-fallback>span{font-size:9px;line-height:1.35}
+.basket-item-copy{min-width:0}.basket-item h3{font-size:17px;line-height:1.5;color:var(--ink);overflow-wrap:anywhere;margin-bottom:7px}.basket-item p{font-size:12px;line-height:1.8;color:#5c594f;overflow-wrap:anywhere}.basket-item strong{font-size:16px}.basket-item-actions .link-button{font-size:12px;padding-block:9px}.basket-item>.quantity-step{margin-top:2px;align-self:start}
+@media(max-width:600px){
+ .cart-dialog .eyebrow{font-size:12px;letter-spacing:1.1px}
+ .basket-item{grid-template-columns:64px minmax(0,1fr);column-gap:13px;row-gap:12px;padding-block:20px}
+ .basket-item-photo{width:64px;height:64px;grid-column:1;grid-row:1}
+ .basket-item-copy{grid-column:2;grid-row:1}.basket-item h3{font-size:16px;line-height:1.55}.basket-item p{font-size:12px}.basket-item strong{font-size:16px}
+ .basket-item>.quantity-step{grid-column:2;grid-row:2;justify-self:start;gap:14px;margin:0}.basket-item>.quantity-step button{width:32px;height:32px;font-size:21px}
+ .basket-item-actions{gap:21px;margin-top:7px}.basket-item-actions .link-button{min-height:35px;font-size:12px}
+ .cart-dialog .sum-row{font-size:14px;gap:14px}.cart-dialog .sum-row>strong{font-size:16px}.cart-dialog .sum-row.total>strong{font-size:21px}
+ #basket-minimum,#basket-fulfillment-note{font-size:13px}.basket-photo-fallback>span{font-size:8px}
+}

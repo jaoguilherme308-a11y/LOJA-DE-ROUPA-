@@ -1,0 +1,24 @@
+{
+  "categories": 16,
+  "products": 156,
+  "variants": 17,
+  "optionGroups": 8,
+  "unavailableAtCollection": 47,
+  "mainProductImagesLocal": 42,
+  "mainProductImagesRemote": 106,
+  "withoutPhotoInSource": 8,
+  "priceSample": [
+    [
+      "Cachorro Q. de Carne",
+      "R$ 14,00"
+    ],
+    [
+      "Ki brasa 03",
+      "R$ 28,00"
+    ],
+    [
+      "pizzas G",
+      "A partir de R$ 29,00"
+    ]
+  ]
+}

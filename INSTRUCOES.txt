@@ -1,0 +1,12 @@
+KIGULA — VERSÃO DE APRESENTAÇÃO DO SISTEMA PRÓPRIO
+
+O cliente escolhe produtos, adicionais e quantidades no site, monta a sacola e confere o total.
+Entrega em Tamandaré: R$ 8,00. Retirada: sem taxa de entrega.
+
+A demonstração NÃO envia pedidos e NÃO gera cobranças. Use dados fictícios ao avaliar a tela.
+Pix e cartão online estão pré-configurados para futura decisão e homologação com o estabelecimento.
+
+A operação real inclui servidor com banco e painel para a equipe. Essa infraestrutura ainda não foi ativada.
+Leia README.md e ATIVACAO-FUTURA.md antes de qualquer ativação.
+
+Não coloque senhas ou chaves privadas nos arquivos públicos ou no GitHub.

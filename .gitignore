@@ -1,0 +1,12 @@
+.local/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+node_modules/
+.wrangler/
+public/
+__pycache__/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kigula-pedidos",
+  "main": "ordering/worker.mjs",
+  "compatibility_date": "2025-11-01",
+  "workers_dev": true,
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "kigula-pedidos", "database_id": "CONFIGURAR_APOS_CRIAR_BANCO" }
+  ]
+}

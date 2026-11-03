@@ -1,0 +1,418 @@
+{
+  "downloaded": {
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1706321522676blob_600": {
+      "localPath": "assets/products/652af3d5000de4001cfea759-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1706321522676blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 66083
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154631310blob_600": {
+      "localPath": "assets/products/634d6ef7e4a0f6001d2f2a5d-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154631310blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 37630
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154657662blob_600": {
+      "localPath": "assets/products/634d6f554ada98001d1a7892-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154657662blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 36533
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154594117blob_600": {
+      "localPath": "assets/products/634d6e2be4a0f6001d2f25f5-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154594117blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 39164
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154751327blob_600": {
+      "localPath": "assets/products/634d71dee4a0f6001d2f3657-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154751327blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 43725
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154715941blob_600": {
+      "localPath": "assets/products/634d6ffbe4a0f6001d2f31e0-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154715941blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 41068
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697404649929blob_600": {
+      "localPath": "assets/products/652af55fa28fc3001ca15021-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697404649929blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 46015
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154778376blob_600": {
+      "localPath": "assets/products/634d727ae4a0f6001d2f3abd-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1791154778376blob_600",
+      "width": 450,
+      "height": 600,
+      "bytes": 41021
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852310998blob_600": {
+      "localPath": "assets/products/63516864b4ca9b0027d4dd8c-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852310998blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 47965
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851020002blob_600": {
+      "localPath": "assets/products/6351631760992a001d53d3ff-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851020002blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 46545
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852013418blob_600": {
+      "localPath": "assets/products/6351683663fb2e001c0e7dab-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852013418blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 51395
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695850667842blob_600": {
+      "localPath": "assets/products/6351602063fb2e001c0e48cd-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695850667842blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 46545
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851987830blob_600": {
+      "localPath": "assets/products/6351672e60992a001d53f181-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851987830blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 50205
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851071796blob_600": {
+      "localPath": "assets/products/635163b263fb2e001c0e5847-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851071796blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 28095
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851646920blob_600": {
+      "localPath": "assets/products/635169f663fb2e001c0e84cf-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851646920blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 50205
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852389185blob_600": {
+      "localPath": "assets/products/635163fa60992a001d53d741-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852389185blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 34152
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852283739blob_600": {
+      "localPath": "assets/products/6351677360992a001d53f3cd-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852283739blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 43647
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852444575blob_600": {
+      "localPath": "assets/products/635168c660992a001d53ff56-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852444575blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 31342
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852410408blob_600": {
+      "localPath": "assets/products/6351660e60992a001d53ebe2-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852410408blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 31342
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852426976blob_600": {
+      "localPath": "assets/products/635167fe63fb2e001c0e7bfc-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852426976blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 34152
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851412709blob_600": {
+      "localPath": "assets/products/6351668860992a001d53ef3a-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851412709blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 18353
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851431070blob_600": {
+      "localPath": "assets/products/635166c360992a001d53ef8b-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851431070blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 26402
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851455537blob_600": {
+      "localPath": "assets/products/6351695f63fb2e001c0e82ff-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851455537blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 18353
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851970088blob_600": {
+      "localPath": "assets/products/635164b960992a001d53e43c-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851970088blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 51395
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852244681blob_600": {
+      "localPath": "assets/products/6351650063fb2e001c0e5d98-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695852244681blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 47965
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1709157794032blob_600": {
+      "localPath": "assets/products/65dfada40b097f0027225ddf-large.png",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1709157794032blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 586697
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851474456blob_600": {
+      "localPath": "assets/products/63516991b4ca9b0027d4e360-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851474456blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 26402
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1709157847192blob_600": {
+      "localPath": "assets/products/65dfadd92475eb001c695c44-large.png",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1709157847192blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 586697
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851102890blob_600": {
+      "localPath": "assets/products/635167c160992a001d53f55e-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1695851102890blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 28095
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1710104047882blob_600": {
+      "localPath": "assets/products/65ee1df1cd90674580f21d93-large.webp",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1710104047882blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 20228
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1707428131131blob_600": {
+      "localPath": "assets/products/65c54924454591001b74c96a-large.webp",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1707428131131blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 30992
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1767040966888blob_600": {
+      "localPath": "assets/products/6952e7c702afec68380366a5-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1767040966888blob_600",
+      "width": 326,
+      "height": 600,
+      "bytes": 24599
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1774929300388blob_600": {
+      "localPath": "assets/products/69cb4595df2470e28a1a4d6d-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1774929300388blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 12638
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1767053435077blob_600": {
+      "localPath": "assets/products/6953187c4c05156ff2823c16-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1767053435077blob_600",
+      "width": 447,
+      "height": 447,
+      "bytes": 20144
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1770925847263blob_600": {
+      "localPath": "assets/products/698cfcda0c7655a7d0b69ff2-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1770925847263blob_600",
+      "width": 480,
+      "height": 600,
+      "bytes": 53246
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109538491blob_600": {
+      "localPath": "assets/products/69dd47e3f8f46f828a1970c4-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109538491blob_600",
+      "width": 300,
+      "height": 168,
+      "bytes": 14203
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311756957blob_600": {
+      "localPath": "assets/products/652aec0ea28fc3001ca0ec43-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311756957blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 44546
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109692438blob_600": {
+      "localPath": "assets/products/69dd487dff6c1d51c5b1cb22-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109692438blob_600",
+      "width": 600,
+      "height": 450,
+      "bytes": 62341
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311399504blob_600": {
+      "localPath": "assets/products/652aeaa8a28fc3001ca0e28d-large.webp",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311399504blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 46406
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311627652blob_600": {
+      "localPath": "assets/products/652aeb8ca28fc3001ca0e8a5-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1697311627652blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 53904
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109378525blob_600": {
+      "localPath": "assets/products/69dd4743365c6a1666f9c1fa-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109378525blob_600",
+      "width": 600,
+      "height": 450,
+      "bytes": 62341
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109844307blob_600": {
+      "localPath": "assets/products/69dd49159ae1a1d196ab2bf9-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1776109844307blob_600",
+      "width": 300,
+      "height": 168,
+      "bytes": 14203
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515569134blob_600": {
+      "localPath": "assets/products/66e85b69566595001c74026d-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515569134blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 48892
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515554040blob_600": {
+      "localPath": "assets/products/66e85b09da3267001c98b250-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515554040blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 49690
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515613982blob_600": {
+      "localPath": "assets/products/66e85d1d03b010001db8c580-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515613982blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 44564
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515581748blob_600": {
+      "localPath": "assets/products/66e85c40278cb7001c8489e6-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515581748blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 49431
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515598413blob_600": {
+      "localPath": "assets/products/66e85cad03b010001db8c3dc-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515598413blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 59344
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726502040878blob_600": {
+      "localPath": "assets/products/66e8505203b010001db87d03-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726502040878blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 62699
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515441706blob_600": {
+      "localPath": "assets/products/66e850c1ac73d5001c4e5741-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515441706blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 57270
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515644993blob_600": {
+      "localPath": "assets/products/66e85de603b010001db8cc06-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515644993blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 56074
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515663476blob_600": {
+      "localPath": "assets/products/66e85e6303b010001db8d19b-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515663476blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 52339
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515676716blob_600": {
+      "localPath": "assets/products/66e85f7a03b010001db8ee8d-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515676716blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 50970
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515460664blob_600": {
+      "localPath": "assets/products/66e85635da3267001c98948d-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515460664blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 47621
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515695894blob_600": {
+      "localPath": "assets/products/66e8601403b010001db8f5c9-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515695894blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 49439
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515475144blob_600": {
+      "localPath": "assets/products/66e856f203b010001db8a204-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515475144blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 52129
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515491763blob_600": {
+      "localPath": "assets/products/66e858beda3267001c98a2b0-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515491763blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 55899
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515505700blob_600": {
+      "localPath": "assets/products/66e85910566595001c73f16a-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515505700blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 39829
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515537865blob_600": {
+      "localPath": "assets/products/66e85a51da3267001c98ae43-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515537865blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 58310
+    },
+    "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515521401blob_600": {
+      "localPath": "assets/products/66e85963da3267001c98a649-large.jpg",
+      "largeSourceUrl": "https://client-assets.anota.ai/produtos/634abaea97ef580013f737e5/-1726515521401blob_600",
+      "width": 600,
+      "height": 600,
+      "bytes": 39829
+    }
+  },
+  "failures": []
+}
